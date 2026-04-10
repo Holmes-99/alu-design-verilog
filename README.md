@@ -68,6 +68,16 @@ A = 0101, B = 0011
 
 ## Files Included
 - Verilog source code (`/src`)
+  ## File Structure
+
+- ALU_Behavioral.v → Top-level ALU module (behavioral modeling)
+- ALU_Dataflow.v → Dataflow implementation connecting components
+- fourBitAdder.v → 4-bit adder module
+- full_adder.v → 1-bit adder used inside 4-bit adder
+- fourBitSubtractor.v → 4-bit subtraction module
+- BitWise_And.v → Bitwise AND operation
+- BitWise_Or.v → Bitwise OR operation
+  
 - Simulation waveforms (`/simulations`)
 - Design schematic (`/schematic`)
 - Full project report (`/report`)
